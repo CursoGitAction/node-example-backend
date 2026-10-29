@@ -1,0 +1,9 @@
+name: CI Api Node 
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  ejecutar-build-central:
+    uses: CursoGitAction/ci-central/.github/workflows/node-build.yml@main
