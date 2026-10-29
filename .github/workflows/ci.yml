@@ -2,7 +2,8 @@ name: CI Api Node
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   ejecutar-build-central:
