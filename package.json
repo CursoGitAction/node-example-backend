@@ -19,5 +19,9 @@
     }
   },
   "packageManager": "pnpm@12.16.1",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
 }
