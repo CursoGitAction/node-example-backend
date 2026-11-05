@@ -7,4 +7,4 @@ on:
 
 jobs:
   ejecutar-build-central:
-    uses: CursoGitAction/ci-central/.github/workflows/node-build-matrix.yml@v1.0
+    uses: CursoGitAction/ci-central/.github/workflows/node-build-matrix.yml@main
